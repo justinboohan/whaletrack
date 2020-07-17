@@ -13,11 +13,12 @@ const routes: Routes = [
   },
   { path: 'sighting', loadChildren: './sighting/sighting.module#SightingPageModule' },
   { path: 'beaching', loadChildren: './beaching/beaching.module#BeachingPageModule' },
-  { path: 'reporting', loadChildren: './reporting/reporting.module#ReportingPageModule' },
   { path: 'contact', loadChildren: './contact/contact.module#ContactPageModule' },
   { path: 'whales', loadChildren: './whales/whales.module#WhalesPageModule' },
   { path: 'whales/:id', loadChildren: './whales/whale/whale.module#WhalePageModule' },
-  { path: 'about', loadChildren: './about/about.module#AboutPageModule' }
+  { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
+  { path: 'map', loadChildren: './map/map.module#MapPageModule' }
+
 ];
 
 @NgModule({

@@ -20,12 +20,16 @@ export class AppComponent {
       url: '/whales'
     },
     {
+      title: 'Interactive Map',
+      url: '/map'
+    },
+    {
       title: 'Report a Sighting',
       url: '/sighting'
     },
     {
       title: 'Report a Beaching',
-      url: '/reporting'
+      url: '/beaching'
     },
     {
       title: 'How to Report',
